@@ -66,8 +66,22 @@ a. 197
 a.  e
 
 ## 1.1.9
+
+## 1.1.10
 int[] a not initialized with New
 
-### 1.1.10
+### 1.1.11
+    int M = 6;
+    int N = 6;
+    boolean[][] a;
+    a = new boolean[M][N];
+    for (int i = 0; i < M; i++)
+      for (int j = 0; j < N; j++)
+        if (a[i][j] == true)
+          System.out.println(i+" "+j+" *");
+        else
+          System.out.println(i+" "+j+" -");
+          
+### 1.1.12
 
 

@@ -10,13 +10,9 @@ public class sample {
 		for (int i = 0; i < M; i++)
 			for (int j = 0; j < N; j++)
 				if (a[i][j] == true)
-					System.out.println(i);
-					System.out.println(j);
-					System.out.println("*");
+					System.out.println(i+" "+j+" *");
 				else
-					System.out.println(i);
-					System.out.println(j);
-					System.out.println("-")
+					System.out.println(i+" "+j+" -");
 				
 	}
 	

@@ -101,7 +101,16 @@ public static int lg(int N) {
 }
 
 ### 1.1.15
+public static int[] histogram(int a[], int M) {
+	int returnArray[] = new int[M];
+	for (int i = 0; i < a.length; i++) {
+		returnArray[a[i]]++;
+	}
+	return returnArray;
+}
 
+### 1.1.16
+311361142246
 	
 	
 

@@ -71,17 +71,39 @@ a.  e
 int[] a not initialized with New
 
 ### 1.1.11
-    int M = 6;
-    int N = 6;
-    boolean[][] a;
-    a = new boolean[M][N];
-    for (int i = 0; i < M; i++)
-      for (int j = 0; j < N; j++)
-        if (a[i][j] == true)
-          System.out.println(i+" "+j+" *");
-        else
-          System.out.println(i+" "+j+" -");
+int M = 6;
+int N = 6;
+boolean[][] a;
+a = new boolean[M][N];
+for (int i = 0; i < M; i++)
+  for (int j = 0; j < N; j++)
+    if (a[i][j] == true)
+      System.out.println(i+" "+j+" *");
+    else
+      System.out.println(i+" "+j+" -");
           
 ### 1.1.12
+Prints 0-9
+
+### 1.1.13
+int[][] a = new int[3][3]
+for (int i = 0; i < 3; i++)
+	for (int i = 0; i < 3; i++)
+			a[i][j] = a[i][j]
+			
+### 1.1.14
+public static int lg(int N) {
+    int value = 0;
+    for (int i = N; i > 1; i/=2) {
+    		value++;
+    }
+    return value;
+}
+
+### 1.1.15
+
+	
+	
+
 
 
